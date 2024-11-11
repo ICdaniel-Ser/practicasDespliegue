@@ -34,7 +34,7 @@ Interconexión de equipos en escritorios virtuales.
 
   ![Captura de pantalla 3, ubuntu server](imagenes/Cap3UbuntuServer.png)
 
-  ![Captura de pantalla 4, ubuntu server](imagenes/Cap4UbuntuServer.png)
+  ![Captura de pantalla 4, ubuntu server](imagenes/cap4UbuntuServer.png)
   
     
 
