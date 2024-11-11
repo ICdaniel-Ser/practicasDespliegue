@@ -72,28 +72,74 @@ Interconexión de equipos en escritorios virtuales.
 ## Configuración del Cliente Ubuntu
 
 - Busca el diálogo de configuración y cambia el nombre del equipo a `ubuntuXX`.
+
+![Captura de pantalla 1, Linux](imagenes/Cap1Linux.png)
+
 - Busca el diálogo de configuración (windows + red) y cambia la configuración de red usando la dirección 192.168.X.2/24
+
+![Captura de pantalla 2, Linux](imagenes/Cap1.5Linux.png)
+
+![Captura de pantalla 3, Linux](imagenes/Cap2Linux.png)
+
 - Comprueba que la IP se ha actualizado con el comando `ip a`.
+
+![Captura de pantalla 4, Linux](imagenes/Cap3Linux.png)
+
 - Prueba la conexión con el servidor con `ping`
+
+![Captura de pantalla 5, Linux](imagenes/Cap4Linux.png)
 
 ## Configuración del Cliente Windows 10
 
 - Busca el diálogo de configuración y cambia el nombre del equipo a `windowsXX`.
+
+![Captura de pantalla 1, Windows](imagenes/Cap1Windows.png)
+
 - Busca el diálogo de configuración (windows + conexiones) y cambia la configuración de red usando la dirección 192.168.X.2/24
+
+![Captura de pantalla 2, Windows](imagenes/Cap2Windows.png)
+
 - Comprueba que la IP se ha actualizado con el comando `ipconfig`.
+
+![Captura de pantalla 3, Windows](imagenes/Cap3Windows.png)
+
+
 Para cambiar el nombre en Windows: botón derecho sobre icono de equipo.
 - Prueba la conexión con el servidor con `ping`
 
+![Captura de pantalla 4, Windows](imagenes/Cap4Windows.png)
 
 ## Configuración DHCP en Ubuntu Server
 
 - Añade una tarjeta de red a tus 3 máquinas asociadas a la red `Personal 1` (Hecho por el profesor). En las máquinas línux se etiquetará como enp4s0.
 - Vas a utilizar la dirección de red: 192.168.1XX.0/24, donde XX debes sustituirlo por tu número de alumno.
+
+![Captura de pantalla 10, Ubuntu servidor](imagenes/Cap2UbuServer.png)
+
+![Captura de pantalla 11, Ubuntu servidor](imagenes/Cap1UbuServer.png)
+
 - Configura el servidor DHCP. Debes definir un rango desde la IP 192.168.XX.100 hasta la 192.168.XX.200.
+
+![Captura de pantalla 12, Ubuntu servidor](imagenes/Cap3UbuServer.png)
+
+![Captura de pantalla 13, Ubuntu servidor](imagenes/Cap4UbuServer.png)
+
 - Comprueba el estado del servicio y que el puerto 67 está en espera (_netstat_).
+
+![Captura de pantalla 14, Ubuntu servidor](imagenes/Cap6UbuServer.png)
+
 - Prepara tus clientes para que configuren sus tarjetas en la red _Personal 1_ mediante DHCP.
 - Comprueba la dirección obtenida y la conexión mediante ping.
 - Verifica las _leases_ o préstamos del servidor (_dhcp-lease-list_ y /var/lib/dhcp/dhcpd.leases_)
+
+![Captura de pantalla 14, Ubuntu servidor](imagenes/Cap6UbuServer.png)
+
 - Configura una reserva de IP fija en el servidor DHCP. Por ejemplo la dirección 50.
 - Reinicia el servicio, y renueva la IP en windows. Verifica que la nueva configuración toma efecto.
 - Apaga el servidor. ¿Cambia la configuración de los clientes?
+
+![Captura de pantalla 15, Ubuntu servidor](imagenes/Cap1FinalUbu.png)
+
+![Captura de pantalla 14, Ubuntu servidor](imagenes/Cap2FinalUbu.png)
+
+![Captura de pantalla 14, Ubuntu servidor](imagenes/Cap3FinalUbu.png)
