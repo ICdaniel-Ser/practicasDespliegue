@@ -27,7 +27,7 @@ Interconexión de equipos en escritorios virtuales.
 ## Configuración del Ubuntu Server.
 
 1. Cambia el nombre de ubuntu server:
-  ![Captura de pantalla 1, ubuntu server](imagenes/Captura 1 ubuntu server (1).png)
+  ![Captura de pantalla 1, ubuntu server](imagenes/Cap1UbuntuServer.png)
   
     
 
