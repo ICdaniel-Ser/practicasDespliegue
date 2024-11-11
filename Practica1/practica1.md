@@ -35,8 +35,12 @@ Interconexión de equipos en escritorios virtuales.
   ![Captura de pantalla 3, ubuntu server](imagenes/Cap3UbuntuServer.png)
 
   ![Captura de pantalla 4, ubuntu server](imagenes/cap4UbuntuServer.png)
-  
-    
+
+  -Otra forma de hacerlo es:
+
+  ![Captura de pantalla 1, ubuntu server](imagenes/Cap10UbuntuServer.png)
+
+     
 
 2. Configurar tarjetas de red.
    - Disponemos de 3 tarjetas. Las dos primeras deben usar dhcp. La tercera es la que está en la red **sanh3**
@@ -46,6 +50,22 @@ Interconexión de equipos en escritorios virtuales.
    - Toma los ficheros de ejemplo de estos apuntes
    - Aplica los cambios usando `netplan apply`
    - Comprueba que la IP se ha actualizado con el comando `ip a`.
+
+    ![Captura de pantalla 5, ubuntu server](imagenes/Cap6UbuntuServer.png)
+
+    ![Captura de pantalla 6, ubuntu server](imagenes/Cap5UbuntuServer.png)
+
+    ![Captura de pantalla 7, ubuntu server](imagenes/Cap7UbuntuServer.png)
+
+    ![Captura de pantalla 8, ubuntu server](imagenes/Cap9UbuntuServer.png)
+
+    ![Captura de pantalla 9, ubuntu server](imagenes/Cap8UbuntuServer.png)
+  
+  
+  
+  
+  
+
 3. Debe
 
 
