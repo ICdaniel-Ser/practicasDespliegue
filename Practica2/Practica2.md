@@ -64,11 +64,11 @@ Servicio de DNS
 
   - Haz la búsqueda de forma autorizada, es decir, que el servidor que contesta sea uno de los registos NS del dominio.
 
-    ![Captura de pantalla dig ](ImagenesPractica2/Cap8dig.png)
+    ![Captura de pantalla dig ](ImagenesPractica2/Cap8Dig.png)
 
-    ![Captura de pantalla dig ](ImagenesPractica2/Cap9dig.png)
+    ![Captura de pantalla dig ](ImagenesPractica2/Cap9Dig.png)
 
-    ![Captura de pantalla dig ](ImagenesPractica2/Cap10dig.png)
+    ![Captura de pantalla dig ](ImagenesPractica2/Cap10Dig.png)
 
 ### Suplantar servicio DNS localmente.
 
@@ -103,7 +103,7 @@ Servicio de DNS
   - Conectándote al mismo mediante SSH
   - Utiliza las direcciones IP de tu red privada (192.168.1xx.0/24)
 
-  ![Captura de pantalla ](ImagenesPractica2/conectarseServidor.png)
+  ![Captura de pantalla ](ImagenesPractica2/conectarServidor.png)
 
   - Deberás usar un fichero con un nombre similar a este: *db.miapellido.edu*
 - Debes definir:
